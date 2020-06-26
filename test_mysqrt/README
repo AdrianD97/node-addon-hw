@@ -1,0 +1,6 @@
+1. run npm install -g node-gyp to install node-gym
+2. after create binding.gyp, run node-gyp configure to generate build folder
+3. cd build/
+4. run make
+5. cd /path/to/the/root/of/the/project (in my case the root folder is 'test_mysqrt')
+6. run npm test or node addon.js
